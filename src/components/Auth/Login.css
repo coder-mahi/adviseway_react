@@ -1,37 +1,46 @@
-/* src/components/Login/Login.css */
 .container {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box; /* Ensure padding is included in width */
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+
 }
 
 h2 {
   text-align: center;
   margin-bottom: 20px;
+  color: #0288d1;
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
+  color: #01579b;
 }
 
 input[type="email"],
 input[type="password"] {
-  width: calc(100% - 20px); /* Subtract padding */
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  width: calc(100% - 20px);
+  padding: 12px;
+  border: 1px solid #b0bec5;
+  border-radius: 8px;
   font-size: 16px;
-  box-sizing: border-box; /* Ensure padding is included in width */
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button-container {
@@ -39,16 +48,25 @@ input[type="password"] {
 }
 
 button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #0288d1;
+  color: #ffffff;
   border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
+  padding: 12px 24px;
+  border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #01579b;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+body{
+  background-color: #e3f2fd;
 }

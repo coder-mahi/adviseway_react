@@ -1,7 +1,7 @@
 .home-container {
   text-align: center;
   padding: 40px;
-  background-color: #f4f7f6;
+  background-color: #e3f2fd; /* Light blue background */
 }
 
 .home-header {
@@ -10,21 +10,21 @@
 
 .home-header h1 {
   font-size: 3rem;
-  color: #333;
+  color: #263238; /* Dark slate color */
   margin-bottom: 20px;
 }
 
 .home-header p {
   font-size: 1.25rem;
-  color: #666;
+  color: #455a64; /* Slate gray color */
   margin-bottom: 30px;
 }
 
 .get-started-btn {
   padding: 10px 20px;
   font-size: 1.25rem;
-  color: #fff;
-  background-color: #007bff;
+  color: #ffffff;
+  background-color: #0288d1; /* Soft blue color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -32,7 +32,7 @@
 }
 
 .get-started-btn:hover {
-  background-color: #0056b3;
+  background-color: #01579b; /* Darker blue color */
 }
 
 .home-features {
@@ -42,7 +42,7 @@
 .home-features h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #263238; /* Dark slate color */
 }
 
 .features-grid {
@@ -53,8 +53,8 @@
 }
 
 .feature-item {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #b0bec5; /* Light gray-blue border */
   border-radius: 8px;
   padding: 20px;
   max-width: 300px;
@@ -64,9 +64,9 @@
 .feature-item h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #007bff;
+  color: #d32f2f; /* Light coral color */
 }
 
 .feature-item p {
-  color: #555;
+  color: #607d8b; /* Slate gray color */
 }

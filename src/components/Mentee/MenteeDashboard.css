@@ -1,5 +1,6 @@
 .mentee-dashboard {
     padding: 20px;
+    background-color: #e0f2f1; /* Light teal background */
   }
   
   .dashboard-header {
@@ -15,8 +16,9 @@
   
   .progress-card, .mentor-reviews {
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #b2dfdb; /* Light teal border */
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   }
   
