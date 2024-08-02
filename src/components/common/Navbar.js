@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo">MentorConnect</Link>
+        <Link to="/" className="navbar-logo">AdviseWay</Link>
         <ul className="navbar-menu">
           <li><Link to="/" className="navbar-link">Home</Link></li>
           <li><Link to="/dashboard" className="navbar-link">Dashboard</Link></li>
