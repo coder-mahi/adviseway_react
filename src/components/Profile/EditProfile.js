@@ -1,3 +1,4 @@
+// src/components/EditProfile/EditProfile.js
 import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { ProfileContext } from '../../context/ProfileContext'; // Correct path
@@ -20,16 +21,8 @@ function EditProfile() {
     e.preventDefault();
     updateProfile(formData); // Update context with new profile data
 
-    // Navigate to appropriate dashboard based on role
-    if (formData.role === 'mentor') {
-      navigate('/mentor-dashboard');
-    } else if (formData.role === 'mentee') {
-      navigate('/mentee-dashboard');
-    } else if (formData.role === 'admin') {
-      navigate('/admin-dashboard');
-    } else {
-      navigate('/profile'); // Fallback if no role matches
-    }
+    // Navigate to profile page after saving changes
+    navigate('/profile');
   };
 
   return (
