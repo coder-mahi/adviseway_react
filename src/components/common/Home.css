@@ -1,38 +1,52 @@
-.home-page {
+/* Home Page Styles */
+.home-container {
     text-align: center;
     padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #eeffff; /* Light gray background */
+    min-height: 100vh;
   }
   
-  .home-page h1 {
-    font-size: 2em;
+  .home-container h1 {
+    color: #2563eb;
     margin-bottom: 20px;
   }
   
-  .home-page p {
-    font-size: 1.2em;
+  .home-container p {
+    color: #333;
     margin-bottom: 20px;
   }
   
-  .home-page ul {
-    list-style: none;
-    padding: 0;
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
   }
   
-  .home-page li {
-    margin: 10px 0;
-  }
-  
-  .home-page button {
+  .login-button, .signup-button {
     padding: 10px 20px;
-    background-color: #2563eb;
-    color: white;
-    border: none;
+    font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
+    border: none;
+    transition: background-color 0.3s ease;
   }
   
-  .home-page button:hover {
+  .login-button {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  .login-button:hover {
     background-color: #1d4ed8;
+  }
+  
+  .signup-button {
+    background-color: #22c55e;
+    color: white;
+  }
+  
+  .signup-button:hover {
+    background-color: #16a34a;
   }
   
