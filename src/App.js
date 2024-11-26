@@ -2,14 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import ProtectedRoute from './components/common/ProtectedRoute'; // Import the ProtectedRoute
 import Navbar from './components/common/Navbar';
+import Login from './auth/pages/Login';
+import Register from './auth/pages/Register';
+import Home from './components/common/Home';
+import Profile from './components/common/Profile';
+
 // Dummy Components for demonstration
-const Home = () => <h2>Home Page</h2>;
-const Login = () => <h2>Login Page</h2>;
-const Register = () => <h2>Register Page</h2>;
 const AdminDashboard = () => <h2>Admin Dashboard</h2>;
 const MentorDashboard = () => <h2>Mentor Dashboard</h2>;
 const MenteeDashboard = () => <h2>Mentee Dashboard</h2>;
-const Profile = () => <h2>Profile Page</h2>;
 
 function App() {
   return (

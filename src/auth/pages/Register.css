@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6; /* Light gray background for the login page */
+  }
+  
+  /* Box Sizing */
+  * {
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+  }
+
+/* Register Page Container */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Register Form Container */
+.register-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(226,255,255,255); /* White background for the login box */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form Elements */
+.register-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #333333; /* Darker gray for text */
+}
+
+.register-form input {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box; /* Ensure input padding doesn't affect total width */
+}
+
+/* Focus on Input Fields */
+.register-form input:focus {
+    border-color: #22c55e; /* Green border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(34, 197, 94, 0.3); /* Subtle green shadow */
+}
+
+/* Submit Button */
+.register-form button {
+    width: 100%; /* Match input width */
+    padding: 10px;
+    background-color: #2563eb; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+    background-color: #16a34a; /* Darker green on hover */
+}
+
+.register-page img {
+    width: 120px;
+}
+
+/* Role Label */
+.register-form label[for="role"] {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #333333; /* Darker gray for text */
+}
+
+/* Role Select Dropdown */
+.register-form select {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box; /* Ensure padding doesn't affect total width */
+}
+
+/* Focus on Role Select */
+.register-form select:focus {
+    border-color: #22c55e; /* Green border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(34, 197, 94, 0.3); /* Subtle green shadow */
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .register-container {
+        padding: 15px 20px;
+    }
+}
