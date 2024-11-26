@@ -6,7 +6,7 @@ import Login from './auth/pages/Login';
 import Register from './auth/pages/Register';
 import Home from './components/common/Home';
 import Profile from './components/common/Profile';
-
+import Dashboard from './auth/pages/Dashboard';
 // Dummy Components for demonstration
 const AdminDashboard = () => <h2>Admin Dashboard</h2>;
 const MentorDashboard = () => <h2>Mentor Dashboard</h2>;
@@ -23,6 +23,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/dashboard" element={<Dashboard />} />
 
             {/* Protected Routes */}
             <Route 
