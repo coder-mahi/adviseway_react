@@ -1,4 +1,4 @@
-<h1 align="center">The Project is in Progress...</h1>
+<h2 align="center">[The Project is in Progress...]</h2>
 <h1 align="center">Hi 👋, I'm Mahesh Shinde</h1>
 <h3 align="center">A passionate Full Stack Web Developer from India</h3>
 
